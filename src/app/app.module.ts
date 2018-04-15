@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { InventoryListComponent } from './inventory/inventory-list/inventory-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InventoryListComponent
   ],
   imports: [
     BrowserModule
